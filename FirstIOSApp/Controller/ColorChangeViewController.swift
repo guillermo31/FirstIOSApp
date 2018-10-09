@@ -28,6 +28,7 @@ public class ColorChangeViewController: UIViewController
     @IBAction func colorClick(_ sender: UIButton) -> Void
     {
         self.view.backgroundColor = myColor.createRandomColor()
+        colorButton.backgroundColor = myColor.createRandomColor()
     }
     
 }
