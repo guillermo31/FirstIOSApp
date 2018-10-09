@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F9632A5F216CEB250041FEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A5E216CEB250041FEDE /* AppDelegate.swift */; };
-		F9632A61216CEB250041FEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A60216CEB250041FEDE /* ViewController.swift */; };
+		F9632A61216CEB250041FEDE /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A60216CEB250041FEDE /* ColorChangeViewController.swift */; };
 		F9632A64216CEB250041FEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9632A62216CEB250041FEDE /* Main.storyboard */; };
 		F9632A66216CEB250041FEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9632A65216CEB250041FEDE /* Assets.xcassets */; };
 		F9632A69216CEB250041FEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9632A67216CEB250041FEDE /* LaunchScreen.storyboard */; };
-		F9632A74216CEB250041FEDE /* FirstIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A73216CEB250041FEDE /* FirstIOSAppTests.swift */; };
-		F9632A7F216CEB250041FEDE /* FirstIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A7E216CEB250041FEDE /* FirstIOSAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +34,13 @@
 /* Begin PBXFileReference section */
 		F9632A5B216CEB250041FEDE /* FirstIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9632A5E216CEB250041FEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9632A60216CEB250041FEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9632A60216CEB250041FEDE /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		F9632A63216CEB250041FEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9632A65216CEB250041FEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9632A68216CEB250041FEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9632A6A216CEB250041FEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9632A6F216CEB250041FEDE /* FirstIOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9632A73216CEB250041FEDE /* FirstIOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSAppTests.swift; sourceTree = "<group>"; };
-		F9632A75216CEB250041FEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9632A7A216CEB250041FEDE /* FirstIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9632A7E216CEB250041FEDE /* FirstIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSAppUITests.swift; sourceTree = "<group>"; };
-		F9632A80216CEB250041FEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				F9632A5D216CEB250041FEDE /* FirstIOSApp */,
-				F9632A72216CEB250041FEDE /* FirstIOSAppTests */,
-				F9632A7D216CEB250041FEDE /* FirstIOSAppUITests */,
 				F9632A5C216CEB250041FEDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,29 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				F9632A8C216CEC8D0041FEDE /* Resources */,
-				F9632A60216CEB250041FEDE /* ViewController.swift */,
-				F9632A62216CEB250041FEDE /* Main.storyboard */,
-				F9632A67216CEB250041FEDE /* LaunchScreen.storyboard */,
+				F9632A8E216CF0BB0041FEDE /* Controller */,
+				F9632A8D216CF0A30041FEDE /* View */,
 			);
 			path = FirstIOSApp;
-			sourceTree = "<group>";
-		};
-		F9632A72216CEB250041FEDE /* FirstIOSAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				F9632A73216CEB250041FEDE /* FirstIOSAppTests.swift */,
-				F9632A75216CEB250041FEDE /* Info.plist */,
-			);
-			path = FirstIOSAppTests;
-			sourceTree = "<group>";
-		};
-		F9632A7D216CEB250041FEDE /* FirstIOSAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F9632A7E216CEB250041FEDE /* FirstIOSAppUITests.swift */,
-				F9632A80216CEB250041FEDE /* Info.plist */,
-			);
-			path = FirstIOSAppUITests;
 			sourceTree = "<group>";
 		};
 		F9632A8C216CEC8D0041FEDE /* Resources */ = {
@@ -131,6 +104,23 @@
 				F9632A6A216CEB250041FEDE /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9632A8D216CF0A30041FEDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9632A62216CEB250041FEDE /* Main.storyboard */,
+				F9632A67216CEB250041FEDE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9632A8E216CF0BB0041FEDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F9632A60216CEB250041FEDE /* ColorChangeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9632A61216CEB250041FEDE /* ViewController.swift in Sources */,
+				F9632A61216CEB250041FEDE /* ColorChangeViewController.swift in Sources */,
 				F9632A5F216CEB250041FEDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9632A74216CEB250041FEDE /* FirstIOSAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9632A7F216CEB250041FEDE /* FirstIOSAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
