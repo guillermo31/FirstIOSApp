@@ -17,7 +17,7 @@ public class ColorChangeViewController: UIViewController
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    public 3override func didReceiveMemoryWarning() -> Void
+    public override func didReceiveMemoryWarning() -> Void
     {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
