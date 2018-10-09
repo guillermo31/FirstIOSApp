@@ -12,6 +12,7 @@
 		F9632A64216CEB250041FEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9632A62216CEB250041FEDE /* Main.storyboard */; };
 		F9632A66216CEB250041FEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9632A65216CEB250041FEDE /* Assets.xcassets */; };
 		F9632A69216CEB250041FEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9632A67216CEB250041FEDE /* LaunchScreen.storyboard */; };
+		F9632A91216CF5D00041FEDE /* ColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9632A90216CF5D00041FEDE /* ColorTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		F9632A6A216CEB250041FEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9632A6F216CEB250041FEDE /* FirstIOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9632A7A216CEB250041FEDE /* FirstIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9632A90216CF5D00041FEDE /* ColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		F9632A5D216CEB250041FEDE /* FirstIOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				F9632A8F216CF5610041FEDE /* Model */,
 				F9632A8C216CEC8D0041FEDE /* Resources */,
 				F9632A8E216CF0BB0041FEDE /* Controller */,
 				F9632A8D216CF0A30041FEDE /* View */,
@@ -121,6 +124,14 @@
 				F9632A60216CEB250041FEDE /* ColorChangeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F9632A8F216CF5610041FEDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9632A90216CF5D00041FEDE /* ColorTool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			files = (
 				F9632A61216CEB250041FEDE /* ColorChangeViewController.swift in Sources */,
 				F9632A5F216CEB250041FEDE /* AppDelegate.swift in Sources */,
+				F9632A91216CF5D00041FEDE /* ColorTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
